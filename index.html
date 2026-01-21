@@ -88,9 +88,25 @@
         <div class="models-grid">
             <!-- Первая модель -->
             <div class="model-card">
-                <div class="model-title">📦 Модель 2</div>
+                <div class="model-title">📦 Модель 1</div>
                 <model-viewer
                     src="model2_0.glb"
+                    alt="3D Model 1"
+                    ar
+                    ar-modes="webxr scene-viewer quick-look"
+                    ar-placement="floor"
+                    ar-scale="auto"
+                    camera-controls
+                    touch-action="pan-y"
+                    auto-rotate>
+                </model-viewer>
+                <div class="info">✓ iOS и Android | Вращайте, масштабируйте, смотрите в AR</div>
+            </div>
+                        <!-- Первая модель -->
+            <div class="model-card">
+                <div class="model-title">📦 Модель 2</div>
+                <model-viewer
+                    src="model2_0_0.glb"
                     alt="3D Model 2"
                     ar
                     ar-modes="webxr scene-viewer quick-look"
@@ -102,7 +118,6 @@
                 </model-viewer>
                 <div class="info">✓ iOS и Android | Вращайте, масштабируйте, смотрите в AR</div>
             </div>
-            
         </div>
     </div>
     
